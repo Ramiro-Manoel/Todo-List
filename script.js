@@ -17,3 +17,10 @@ function addTask(){
 
     inputText.value = "";
 }
+
+const toDoItems = document.getElementsByClassName("to-do-item");
+for(let element of toDoItems){
+    element.onclick = () => {
+        element.classList.toggle("checked-item")
+    }
+}

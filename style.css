@@ -18,7 +18,6 @@
     border-radius: 15px;
     margin: 12px auto ;
     padding: 25px;
-
 }
 
 #to-do-app form{
@@ -53,13 +52,7 @@
 }
 
 .checked-item{
-    position: relative;
     text-decoration: line-through;
-    list-style: none;
-    cursor: pointer;
-    padding: 10px;
-    margin: 10px 0px;
-    border-radius: 15px;
 }
 
 .delete-button{
